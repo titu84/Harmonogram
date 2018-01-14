@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Subject>
+
+@foreach (var item in Model)
+{
+    <tr class="@item.BootstrapClassForRow">
+        <td>@item.ShortDate</td>
+        <td>@item.Day</td>
+        <td>@item.FromTime</td>
+        <td>@item.ToTime</td>
+        <td>@item.ShortName</td>
+        <td>@item.TypeOfSub</td>
+        <td>@item.HoursCount</td>
+        <td>@item.Where</td>
+        <td>@item.Group1</td>
+        <td>@item.Group2</td>
+        <td>@item.Group3</td>
+        <td>@item.ShortLecturer</td>
+    </tr>
+}
+

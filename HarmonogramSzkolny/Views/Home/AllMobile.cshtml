@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Subject>
+@if (Model != null)
+{
+    if (Model.Count() > 0)
+    {
+        <table class="table table-hover col-lg-12 col-md-12 col-sm-12 col-xs-12">          
+            <tbody>
+                @Html.Partial("_SubjectsMobile", Model)
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="container">
+            <div class="jumbotron">
+                <h3> Brak zajęć </h3>
+            </div>
+        </div>
+    }
+}
+
+

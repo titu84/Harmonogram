@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Subject>
+
+@foreach (var item in Model)
+{
+    string day = item.Day != null ? @item.Day.Substring(0, 1).ToUpper() : null; 
+    <tr class="@item.BootstrapClassForRow">
+        <td>@item.ShortDate</td>
+        <td>@day</td>
+        <td>@item.FromTime</td>
+        <td>@item.ToTime</td>
+        <td>@item.ShortName</td>
+        <td>@item.TypeOfSub</td>       
+        <td>@item.Where</td>
+    </tr>
+}
+
