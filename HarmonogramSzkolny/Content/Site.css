@@ -33,3 +33,11 @@ select,
 textarea {
     max-width: 280px;
 }
+.mapNone {
+    display: none;
+}
+#map > img {    
+    min-width: 100%;
+    max-width: 100%;
+    width: auto;
+}

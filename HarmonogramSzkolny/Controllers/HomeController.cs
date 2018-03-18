@@ -39,6 +39,10 @@ namespace HarmonogramSzkolny.Controllers
             ViewBag.Headers = r.GetHeaders();
             return View("All", s);
         }
+        public ActionResult Map()
+        {
+            return View();
+        }
         public ActionResult Error(string message)
         {
             ViewBag.Message = message;
