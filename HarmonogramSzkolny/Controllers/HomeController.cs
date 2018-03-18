@@ -2,22 +2,22 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using HarmonogramSzkolny.Repos;
 using System.Web.Mvc;
 
 namespace HarmonogramSzkolny.Controllers
 {
     public class HomeController : Controller
     {
-        Repos.Repostory r = new Repos.Repostory();
+        IRepostory r = new Repostory();
         public ActionResult Index()
         {   
             return View(r.GetTitle());
         }
 
-        public ActionResult All()
+        public ActionResult All(bool all = false)
         {
-            List<Subject> s = r.GetAllSubjects();
+            List<Subject> s = r.GetAllSubjects(all);
             ViewBag.Headers = r.GetHeaders();
             return View(s);
         }

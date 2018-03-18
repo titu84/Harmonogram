@@ -65,7 +65,11 @@ namespace HarmonogramSzkolny.Models
             {
                 if (Date != null && Date.HasValue)
                 {
-                    return Date.Value.DayOfWeek == DayOfWeek.Friday ? "info" :Date.Value.DayOfWeek == DayOfWeek.Saturday ? "success" : Date.Value.DayOfWeek == DayOfWeek.Sunday ? "warning" : "dafault";
+                    return Date.Value.DayOfWeek == DayOfWeek.Friday && FromTime != null ? "info" :
+                        Date.Value.DayOfWeek == DayOfWeek.Saturday && FromTime != null ? "success" :
+                        Date.Value.DayOfWeek == DayOfWeek.Sunday && FromTime != null ? "warning" :
+                        FromTime == null ? "danger text" :
+                        "dafault";
                 }
                 return "default";
             }

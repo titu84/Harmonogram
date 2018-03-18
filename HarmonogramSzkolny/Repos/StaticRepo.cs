@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -54,7 +55,7 @@ namespace HarmonogramSzkolny.Repos
                     if (data[i][0] > 0)
                         s.Date = new DateTime(1900, 1, 1).AddDays(-2).AddDays((double)data[i][0]);
                     s.Day = data[i][1];
-                    if (data[i][0] > 0 && data[i][2] > 0)                    
+                    if (data[i][0] > 0 && data[i][2] > 0)
                         s.FromTime = new DateTime(1900, 1, 1).AddDays(-2).AddDays((double)data[i][0]).AddDays((double)data[i][2]).ToString("HH:mm");
                     if (data[i][0] > 0 && data[i][3] > 0)
                         s.ToTime = new DateTime(1900, 1, 1).AddDays(-2).AddDays((double)data[i][0]).AddDays((double)data[i][3]).ToString("HH:mm");
@@ -79,8 +80,46 @@ namespace HarmonogramSzkolny.Repos
                         s.Group2 != null ||
                         s.Group3 != null ||
                         s.Lecturer != null
-                        )
+                    )
+                    {
+                        try
+                        {
+                            var t = data[i][2] - data[i - 1][3];
+                        }
+                        catch (Exception e)
+                        {
+                            Debug.WriteLine(e);
+                            throw;
+                        }
+
+                        if (i > 3 && data[i][0] == data[i - 1][0] && data[i][2] - data[i - 1][3] > 0.0416 && data[i][2] - data[i - 1][3] < 5) //3 pierwszy piersz, 0.416 godzina, 5 to 12h
+                        {
+                            var ts = new DateTime(1900, 1, 1).AddDays(-2).AddDays((double) data[i][0])
+                                            .AddDays((double) data[i][2]) -
+                                        new DateTime(1900, 1, 1).AddDays(-2).AddDays((double) data[i - 1][0])
+                                            .AddDays((double) data[i - 1][3]);
+                            string breakTime = ts.TotalMinutes - ((int)ts.TotalHours * 60) != 0d?
+                                $"{(int)ts.TotalHours}:{ts.TotalMinutes - ((int)ts.TotalHours * 60)}h":
+                                $"{(int)ts.TotalHours}h";
+                            l.Add(new Subject()
+                            {
+                                Date = s.Date,
+                                Day = s.Day,
+                                Name = $"OKNO {breakTime}",
+                                TypeOfSub = null,
+                                FromTime = null,
+                                ToTime = null,
+                                HoursCount = null,
+                                Where = null,
+                                Group1 = null,
+                                Group2 = null,
+                                Group3 = null,
+                                Lecturer = null
+                            });
+                        }
                         l.Add(s);
+                    }
+
                 }
                 catch (Exception ex)
                 {

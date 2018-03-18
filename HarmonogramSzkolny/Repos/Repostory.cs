@@ -19,10 +19,9 @@ namespace HarmonogramSzkolny.Repos
         {
             return StaticRepo.Title;
         }
-        public List<Subject> GetAllSubjects()
+        public List<Subject> GetAllSubjects(bool all = false)
         {
-            return StaticRepo.AllSubjects.Where(a => a.Date >= DateTime.Today).ToList();
-            //return StaticRepo.AllSubjects;
+            return all? StaticRepo.AllSubjects : StaticRepo.AllSubjects.Where(a => a.Date >= DateTime.Today).ToList();
         }
         public List<Subject> GetShortSubjects(double addDays)
         {

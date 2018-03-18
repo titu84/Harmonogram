@@ -150,12 +150,6 @@
     <Content Include="App_Data\excelData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\Harmonogram - FTP %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\Harmonogram - FTP %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\Harmonogram - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\Harmonogram - Web Deploy %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\Harmonogram - Web Deploy %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\Harmonogram - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
