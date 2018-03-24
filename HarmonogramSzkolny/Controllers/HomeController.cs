@@ -11,8 +11,17 @@ namespace HarmonogramSzkolny.Controllers
     {
         IRepostory r = new Repostory();
         public ActionResult Index()
-        {   
-            return View(r.GetTitle());
+        {
+            try
+            {
+                return View(r.GetTitle());
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            
         }
 
         public ActionResult All(bool all = false)

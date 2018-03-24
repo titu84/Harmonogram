@@ -6,7 +6,6 @@
   [ 43175, "piątek", 0.80208333333333337, 0.86458333333333337, "Komunikacja w zespole międzykulturowym", "K", 2, "SW-1 Praga", null, null, "W/2/IE/N", "Czapran Tomasz dr" ],
   [ 43176, "sobota", 0.33333333333333331, 0.39583333333333331, "Język angielski", "Cw", 2, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43176, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-  [ 43176, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
   [ 43176, "sobota", 0.625, 0.6875, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
   [ 43176, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43177, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
@@ -17,14 +16,13 @@
   [ 43196, "piątek", 0.80208333333333337, 0.86458333333333337, "Komunikacja w zespole międzykulturowym", "K", 2, "SW-2 Toronto", null, null, "W/2/IE/N", "Czapran Tomasz dr" ],
   [ 43197, "sobota", 0.33333333333333331, 0.39583333333333331, "Język angielski", "Cw", 2, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43197, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-
-  [ 43197, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
+  [ 43197, "sobota  ", 0.4375, 0.46875, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K1   ", 1, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
+  [ 43197, "sobota  ", 0.47222222222222227, 0.53472222222222221, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
   [ 43197, "sobota", 0.55208333333333337, 0.61458333333333337, "Elektronika praktyczna", "Lab", 2, "F-8 Miami", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
-
   [ 43197, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43197, "sobota", 0.76041666666666663, 0.82291666666666663, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
+  [ 43198, "niedziela", 0.33333333333333331, 0.39583333333333331, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "F-2 Rzym", null, null, null, "Krzywda", null, null ],
   [ 43198, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
-
   [ 43198, "niedziela", 0.54166666666666663, 0.60416666666666663, "Ekonometria", "Cw", 2, "F-2 Rzym", "Cw2/2/Web/N", null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43198, "niedziela", 0.611111111111111, 0.67361111111111116, "Komunikacja w zespole międzykulturowym", "Cw", 2, "SW-1 Praga", "Cw2/2/Web/N", null, "W/2/IE/N", "Czapran Tomasz dr" ],
   [ 43198, "niedziela", 0.68055555555555547, 0.74305555555555547, "Programowanie urządzeń mobilnych", "K", 2, "SW-1 Praga", null, null, "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
@@ -33,76 +31,69 @@
   [ 43210, "piątek", 0.80208333333333337, 0.83333333333333337, "Elektronika praktyczna", "K", 1, "SW-2 Toronto", null, null, "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
   [ 43211, "sobota", 0.33333333333333331, 0.39583333333333331, "Język angielski", "Cw", 2, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43211, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-
-  [ 43211, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
   [ 43211, "sobota", 0.55208333333333337, 0.61458333333333337, "Elektronika praktyczna", "Lab", 2, "F-8 Miami", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
   [ 43211, "sobota", 0.625, 0.6875, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
   [ 43211, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
+  [ 43212, "niedziela", 0.33333333333333331, 0.39583333333333331, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "PK-3 Nowy Jork", null, null, null, "Krzywda", null, null ],
   [ 43212, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
-
   [ 43212, "niedziela", 0.54166666666666663, 0.60416666666666663, "Ekonometria", "Cw", 2, "F-2 Rzym", "Cw2/2/Web/N", null, "W/2/IE/N", "Zając Paweł dr " ],
-
   [ 43212, "niedziela", 0.68055555555555547, 0.74305555555555547, "Programowanie urządzeń mobilnych", "K", 2, "SW-1 Praga", null, null, "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43212, "niedziela", 0.75, 0.8125, "Programowanie aplikacji webowych", "K", 2, "SW-1 Praga", null, null, "Web/N", "Gromko Piotr mgr inż." ],
   [ 43224, "piątek", 0.72916666666666663, 0.79166666666666663, "Ekonometria", "W", 2, "SW-2 Toronto", null, null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43224, "piątek", 0.80208333333333337, 0.86458333333333337, "Ekonometria", "W", 2, "SW-2 Toronto", null, null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43225, "sobota", 0.33333333333333331, 0.39583333333333331, "Język angielski", "Cw", 2, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43225, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-
+  [ 43225, "sobota", 0.4375, 0.46875, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K1   ", 1, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
+  [ 43225, "sobota", 0.47222222222222227, 0.53472222222222221, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
   [ 43225, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43225, "sobota", 0.76041666666666663, 0.82291666666666663, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
+  [ 43226, "niedziela", 0.33333333333333331, 0.39583333333333331, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "F-2 Rzym", null, null, null, "Krzywda", null, null ],
   [ 43226, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
   [ 43226, "niedziela", 0.47222222222222227, 0.53472222222222221, "Komunikacja w zespole międzykulturowym", "Cw", 2, "SW-1 Praga", "Cw2/2/Web/N", null, "W/2/IE/N", "Czapran Tomasz dr" ],
   [ 43226, "niedziela", 0.54166666666666663, 0.60416666666666663, "Ekonometria", "Cw", 2, "F-2 Rzym", "Cw2/2/Web/N", null, "W/2/IE/N", "Zając Paweł dr " ],
-
   [ 43226, "niedziela", 0.68055555555555547, 0.74305555555555547, "Programowanie urządzeń mobilnych", "K", 2, "SW-1 Praga", null, null, "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43226, "niedziela", 0.75, 0.8125, "Programowanie aplikacji webowych", "K", 2, "SW-1 Praga", null, null, "Web/N", "Gromko Piotr mgr inż." ],
   [ 43238, "piątek", 0.72916666666666663, 0.79166666666666663, "Elektronika praktyczna", "K", 2, "SW-2 Toronto", null, null, "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
   [ 43238, "piątek", 0.80208333333333337, 0.83333333333333337, "Elektronika praktyczna", "K", 1, "SW-2 Toronto", null, null, "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
   [ 43239, "sobota", 0.33333333333333331, 0.39583333333333331, "Język angielski", "Cw", 2, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43239, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-
-  [ 43239, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
-
   [ 43239, "sobota", 0.625, 0.6875, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
   [ 43239, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43239, "sobota", 0.76041666666666663, 0.82291666666666663, "Elektronika praktyczna", "Lab", 2, "F-8 Miami", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
   [ 43253, "sobota", 0.33333333333333331, 0.39583333333333331, "Język angielski", "Cw", 2, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43253, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-
-  [ 43253, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
-
+  [ 43253, "sobota", 0.4375, 0.46875, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K1   ", 1, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
+  [ 43253, "sobota", 0.47222222222222227, 0.53472222222222221, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
   [ 43253, "sobota", 0.55208333333333337, 0.61458333333333337, "Elektronika praktyczna", "Lab", 2, "F-8 Miami", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/AS Web/N", "Młynarczyk Marcin dr" ],
   [ 43253, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43253, "sobota", 0.76041666666666663, 0.82291666666666663, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
+  [ 43254, "niedziela", 0.33333333333333331, 0.39583333333333331, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "F-2 Rzym", null, null, null, "Krzywda", null, null ],
   [ 43254, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
   [ 43254, "niedziela", 0.47222222222222227, 0.53472222222222221, "Komunikacja w zespole międzykulturowym", "Cw", 2, "SW-1 Praga", "Cw2/2/Web/N", null, "W/2/IE/N", "Czapran Tomasz dr" ],
   [ 43254, "niedziela", 0.54166666666666663, 0.60416666666666663, "Ekonometria", "Cw", 2, "F-2 Rzym", "Cw2/2/Web/N", null, "W/2/IE/N", "Zając Paweł dr " ],
-
   [ 43254, "niedziela", 0.68055555555555547, 0.74305555555555547, "Programowanie urządzeń mobilnych", "K", 2, "SW-1 Praga", null, null, "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43254, "niedziela", 0.75, 0.8125, "Programowanie aplikacji webowych", "K", 2, "SW-1 Praga", null, null, "Web/N", "Gromko Piotr mgr inż." ],
   [ 43266, "piątek", 0.72916666666666663, 0.86458333333333337, "Ekonometria", "W", 2, "SW-2 Toronto", null, null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43266, "piątek", 0.80208333333333337, 0.83333333333333337, "Ekonometria", "W", 2, "SW-2 Toronto", null, null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43267, "sobota", 0.36458333333333331, 0.39583333333333331, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
   [ 43267, "sobota", 0.39930555555555558, 0.43055555555555558, "Język angielski", "Cw", 1, "PK-3 Nowy Jork", null, "A7/2/IE/N", "W/2/IE/N", "Astramowicz Piotr mgr" ],
-
-  [ 43267, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
-
+  [ 43267, "sobota", 0.4375, 0.46875, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K1   ", 1, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
+  [ 43267, "sobota", 0.47222222222222227, 0.53472222222222221, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "D Warszawa   ", null, null, null, "Krzywda", null, null ],
   [ 43267, "sobota", 0.625, 0.6875, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
   [ 43267, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
+  [ 43268, "niedziela", 0.47222222222222227, 0.53472222222222221, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "PK-2 San Francisco", null, null, null, "Krzywda", null, null ],
   [ 43268, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
   [ 43268, "niedziela", 0.47222222222222227, 0.53472222222222221, "Komunikacja w zespole międzykulturowym", "Cw", 2, "SW-1 Praga", "Cw2/2/Web/N", null, "W/2/IE/N", "Czapran Tomasz dr" ],
   [ 43268, "niedziela", 0.54166666666666663, 0.60416666666666663, "Ekonometria", "Cw", 2, "F-2 Rzym", "Cw2/2/Web/N", null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43268, "niedziela", 0.611111111111111, 0.67361111111111116, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
+  [ 43268, "niedziela", 0.68055555555555547, 0.74305555555555547, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "SW-1 Praga", null, null, null, "Krzywda", null, null ],
   [ 43280, "piątek", 0.72916666666666663, 0.79166666666666663, "Ekonometria", "W", 2, "SW-2 Toronto", null, null, "W/2/IE/N", "Zając Paweł dr " ],
-  [ 43281, "sobota", 0.47222222222222227, 0.53472222222222221, "Techniki kreatywnego i twórczego myślenia", "K", 2, "SW-2 Toronto", null, null, "W/1/F/N;W/2/BI Web/N", "Stach Przemysław dr" ],
-
   [ 43281, "sobota", 0.69791666666666663, 0.76041666666666663, "Programowanie urządzeń mobilnych", "Lab", 2, "PK-2 San Francisco", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Malendowicz Artur mgr" ],
   [ 43281, "sobota", 0.76041666666666663, 0.82291666666666663, "Programowanie aplikacji webowych", "Lab", 2, "PK-4 Montreal", "Cw2/2/Web/N", "inf2A/2/Web/N", "W/2/Gry Web/N", "Gromko Piotr mgr inż." ],
+  [ 43282, "niedziela", 0.33333333333333331, 0.39583333333333331, "Poznawcze uwarunkowania funkcjonowania umysłu w dziedzinie informatyki", "K2", 2, "F-1 Barcelona", null, null, null, "Krzywda", null, null ],
   [ 43282, "niedziela", 0.40277777777777773, 0.46527777777777773, "Warsztaty przedsiębiorczości", "Cw", 2, "F-1 Barcelona", "Cw2/2/Web/N", null, "W/2/IE/N", "Florczak Ewelina dr" ],
-
   [ 43282, "niedziela", 0.54166666666666663, 0.60416666666666663, "Ekonometria", "Cw", 2, "F-2 Rzym", "Cw2/2/Web/N", null, "W/2/IE/N", "Zając Paweł dr " ],
   [ 43282, "niedziela", 0.611111111111111, 0.67361111111111116, "Komunikacja w zespole międzykulturowym", "Cw", 2, "SW-1 Praga", "Cw2/2/Web/N", null, "W/2/IE/N", "Czapran Tomasz dr" ],
-
   [ 43282, "niedziela", 0.75, 0.8125, "Programowanie aplikacji webowych", "K", 2, "SW-1 Praga", null, null, "Web/N", "Gromko Piotr mgr inż." ]
+
 ]

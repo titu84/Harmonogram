@@ -20,7 +20,7 @@ namespace HarmonogramSzkolny.Repos
         {
             if (data == null)
             {
-                data = JsonConvert.DeserializeObject(File.ReadAllText(HostingEnvironment.MapPath(@"~\App_Data\excelData.json")));
+                data = JsonConvert.DeserializeObject(File.ReadAllText(HostingEnvironment.MapPath(@"~\App_Data\excelData.json")));                            
             }
             if (allSubjects == null)
             {
@@ -47,6 +47,7 @@ namespace HarmonogramSzkolny.Repos
         private static void convertAllSubjects()
         {
             List<Subject> l = new List<Subject>();
+                    
             for (int i = 3; i < data.Count; i++) // 0,1 i 2 to tytuły i nagłówki
             {
                 try
@@ -107,8 +108,8 @@ namespace HarmonogramSzkolny.Repos
                                 Day = s.Day,
                                 Name = $"OKNO {breakTime}",
                                 TypeOfSub = null,
-                                FromTime = null,
-                                ToTime = null,
+                                FromTime = new DateTime(1900, 1, 1).AddDays(-2).AddDays((double)data[i-1][0]).AddDays((double)data[i-1][3]).AddSeconds(+1).ToString("HH:mm"),
+                                ToTime = new DateTime(1900, 1, 1).AddDays(-2).AddDays((double)data[i][0]).AddDays((double)data[i][2]).ToString("HH:mm"),
                                 HoursCount = null,
                                 Where = null,
                                 Group1 = null,
