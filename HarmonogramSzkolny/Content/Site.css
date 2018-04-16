@@ -36,7 +36,8 @@ textarea {
 .mapNone {
     display: none;
 }
-#map > img {    
+#map > img {
+    padding-top: 20px;
     min-width: 100%;
     max-width: 100%;
     width: auto;

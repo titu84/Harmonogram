@@ -63,11 +63,11 @@ namespace HarmonogramSzkolny.Repos
                     s.Name = data[i][4];
                     s.TypeOfSub = data[i][5];
                     s.HoursCount = data[i][6];
-                    s.Where = data[i][7];
-                    s.Group1 = data[i][8];
-                    s.Group2 = data[i][9];
-                    s.Group3 = data[i][10];
-                    s.Lecturer = data[i][11];
+                    s.Where = $"{data[i][7]} {data[i][8]}";
+                    s.Group1 = data[i][9];
+                    s.Group2 = data[i][10];
+                    s.Group3 = data[i][11];
+                    s.Lecturer = data[i][12];
 
                     if (s.Date != null ||
                         s.Day != null ||
